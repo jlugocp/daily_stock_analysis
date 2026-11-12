@@ -3,7 +3,7 @@ name: Daily Stock Analysis
 on:
   # Scheduled trigger - every day at 18:00 Beijing Time (UTC 10:00)
   schedule:
-    - cron: '0 04 * * 1-5'     # Monday to Friday, UTC 10:00 = Beijing Time 18:00
+    - cron: '50 23 * * 1-5'     # Monday to Friday, UTC 10:00 = Beijing Time 18:00
 
   # Manual trigger
   workflow_dispatch:
